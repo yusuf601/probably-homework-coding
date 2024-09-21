@@ -125,8 +125,11 @@ int main(){
             cout << "masukkan suhu dalam Kelvin: ";
             cin >> suhu3;
             kelvin(suhu3);
+        }else if(pilihan >4){
+            cout << "Pilihan tidak di temukan" << endl;
+            break;
         }else{
-            cout << "Invalid input Try again!!!!" << endl;
+            cout << "Invalid input " << endl;
         }
     }
     // cout << "Satuan yang tersedia \n";
